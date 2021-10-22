@@ -4,7 +4,7 @@ const kibria = {
     name: 'RJ Kibria',
     treatDey: function (expense) {
         this.money = this.money - expense;
-        console.log('here5555', this);
+        console.log('hero gives us treat , hero name & id here', this);
         return this.money;
     }
 }
